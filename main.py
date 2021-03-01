@@ -1,3 +1,5 @@
-print ("any thing i want!") 
-print ('first tep: "git add."')
-print ("second step: git commit -m \"your message\"" )
+print("First command \git add") 
+print("Second command \EA Sports are trash")
+print("Third command \git command -m")
+print("Fourth command \git push")
+
