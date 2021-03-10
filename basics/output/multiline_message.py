@@ -1,7 +1,0 @@
-#Display message to standart output in multiple lines of code
-print("System Failure Imminent")
-print("System Reboot has been Initiated...\n")
-print("...rebooting sensory system")
-print("...rebooting output motors")
-print("...rebooting hover engine\n")
-print("System online")
