@@ -1,17 +1,13 @@
-print("What is your name?")
-n = input()
-# print("Do you have a dog? (type True or False)")
-# dog = (input)
-# bool is boolean datatype - only stores True/False
+#White loop (and also FOR loop) can be used to have a repetition of a procedure in our code
 
+print("How many times to print the symbol?")
+x = int(input()) #x=3
 
-if len(n) > 9:
-  print("You have a very loong name!")
-  print ("Your name contains {} letters".format(len(n)))
-elif len(n) > 6:
-  print("Your name is a bit long. Consider a nickname")
-elif len(n) > 3:
-  print("your name is very short")
-else:
-  print("Your name is quite okay")
-print("This is the end of the program!")
+#i is a counter - it keeps track of how many times we went through the loop
+i = 0
+
+while i < x: #condition for repeating the code - as long as i lower than x
+  print("\u27BD \n", i)
+  i = i + 1 #new value of the counter is one more than it used to be
+
+print("We left the loop")
