@@ -1,7 +1,6 @@
 #Code that can be used to calculate the total cost of room makeover in a house
-
-def room_area(width, Length):
- return width*Length
+def room_area(width, length):
+ return width*length
 
 def room_name():
  print("What is the name of the room?")
@@ -23,6 +22,6 @@ def run():
   w = float(input())
   print("What is the length of the room?")
   l = float(input())
-  print(f"You should pay £{price(name,room_area(w,l))}")
+  print(f"You should pay £{price(name,room_area(w,l)):.2f}")
 
 
