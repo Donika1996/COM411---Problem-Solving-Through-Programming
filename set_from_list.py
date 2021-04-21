@@ -1,10 +1,10 @@
 def observed():
  observations = []
+
  for count in range(7):
     print("Please enter an observation: ")
     observations.append(input())
  return observations
-
 
  def run():
    print("Counting observations...")
@@ -18,7 +18,7 @@ for observation in observations:
 
 #display observations_set
 
-for data is observations_set:
-  print(f"{data[0]} observed {data[1]}times")
+for data in observations_set:
+  print(f"{data[0]} observed {data[1]} times")
 
 run()

@@ -1,12 +1,13 @@
+#Define an empty list
 fruits = []
 
 #Define a list with items
 vegetables = ["Carrot", "Peas"]
 
-#Add items to the list at the end of the list
+#Add items to the list
 fruits.append("Apple")
 fruits.append("Banana")
-fruits.append("Tomatoe")
+fruits.append("Tomatoes")
 fruits.append("Banana")
 print(fruits)
 

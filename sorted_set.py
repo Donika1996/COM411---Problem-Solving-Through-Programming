@@ -1,5 +1,5 @@
 def observed[]:
-  observations_=[]
+    observations = []
 
 for count in range(5):
   print("Please enter an observation: ")
@@ -13,23 +13,24 @@ def remove_observations(observations):
   while(is_running):
     print("Do you wish to remove an observation (yes/no)?")
     response=input()
+
     if (response=="yes"):
       print("Please enter the observation you wish to remove")
       observation =input()
       observations.remove(observation)
-   else:
+    else:
      is_running=False
 
-
 def run():
- observations = observed()
+  observations = observed()
   remove_observations(observations)
   #populate the set
   observation_set =set()
- for observation in observations:
-   data = (observation, observations.count(observation))
-   observation_set.add((data))
-   #display the set what we have
-   for data in sorted(observations_set):
-   print(f"{data[0]} {data[1]}")
+  for observation in observations:
+    data = (observation, observations.count(observation))
+    observation_set.add((data))
+
+  #display the set what we have
+  for data in sorted(observation_set):
+    print(f"{data[0]} {data[1]}")
 run()

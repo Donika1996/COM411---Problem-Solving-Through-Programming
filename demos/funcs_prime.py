@@ -7,7 +7,7 @@ def isPrime(x):
 def findPrime(beginning, finish):
   for j in range(beginning,finish):
     if isPrime(j):
-      return j
+      return j 
 
 def encrypt():
   print("Provide two integers")
@@ -23,9 +23,13 @@ def encrypt():
 print(encrypt(), encrypt())
 
 
-# print("What is the number?")
-# x=int(input())
-# if isPrime(x):
-#   print(f"The number {x} is prime!")
-# else:
-#   print("The number was not prime!")
+
+
+
+
+#print("What is the number?")
+#x=int(input())
+#if isPrime(x):
+# print(f"The number {x} is prime!")
+#else:
+#  print("The number was not prime!")
